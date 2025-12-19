@@ -1,0 +1,15 @@
+{
+  "version": "3.2",
+  "model_name": "GoogLeNet",
+  "best_val_accuracy": 98.15668202764977,
+  "test_accuracy": 91.52542372881356,
+  "training_time": 1000.0479247570038,
+  "parameters": 5992212,
+  "config": {
+    "learning_rate": 0.002,
+    "dropout": 0.3,
+    "weight_decay": 0.01,
+    "batch_size": 64,
+    "epochs": 50
+  }
+}

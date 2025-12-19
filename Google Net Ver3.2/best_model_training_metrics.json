@@ -1,0 +1,7 @@
+{
+  "model_path": "best_GoogLeNet_v3.2.pth",
+  "saved_epoch": 45,
+  "saved_val_accuracy": 98.15668202764977,
+  "training_loss": 0.03148923254671639,
+  "training_accuracy": 98.96073903002309
+}

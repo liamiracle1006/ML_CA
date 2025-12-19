@@ -1,0 +1,7 @@
+{
+  "model_name": "GoogLeNet",
+  "best_val_accuracy": 98.61751152073732,
+  "test_accuracy": 91.52542372881356,
+  "training_time": 984.4616968631744,
+  "parameters": 5992212
+}

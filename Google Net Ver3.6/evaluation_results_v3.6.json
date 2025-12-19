@@ -1,0 +1,30 @@
+{
+  "model": "GoogLeNet",
+  "version": "3.6",
+  "epoch_saved": 41,
+  "accuracies": {
+    "training": 97.92147806004618,
+    "validation": 98.15668202764977,
+    "test": 96.61016949152543
+  },
+  "per_class_accuracy": {
+    "training": {
+      "Apple": 99.63235294117648,
+      "Banana": 98.1203007518797,
+      "Mixed": 90.74074074074075,
+      "Orange": 97.44525547445255
+    },
+    "validation": {
+      "Apple": 96.7741935483871,
+      "Banana": 100.0,
+      "Mixed": 100.0,
+      "Orange": 97.5
+    },
+    "test": {
+      "Apple": 100.0,
+      "Banana": 94.44444444444444,
+      "Mixed": 80.0,
+      "Orange": 100.0
+    }
+  }
+}

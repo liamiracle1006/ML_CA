@@ -1,0 +1,366 @@
+{
+  "model": "GoogLeNet v3.5",
+  "checkpoint_file": "best_GoogLeNet_v3.5.pth",
+  "trained_epochs": 49,
+  "total_parameters": 5992212,
+  "training_set": {
+    "accuracy": 98.84526558891454,
+    "correct": 856,
+    "total": 866,
+    "per_class_accuracy": {
+      "Apple": {
+        "accuracy": 100.0,
+        "correct": 269,
+        "total": 269
+      },
+      "Banana": {
+        "accuracy": 99.22779922779922,
+        "correct": 257,
+        "total": 259
+      },
+      "Mixed": {
+        "accuracy": 93.10344827586206,
+        "correct": 54,
+        "total": 58
+      },
+      "Orange": {
+        "accuracy": 98.57142857142858,
+        "correct": 276,
+        "total": 280
+      }
+    },
+    "confusion_matrix": [
+      [
+        269,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        257,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        54,
+        3
+      ],
+      [
+        1,
+        2,
+        1,
+        276
+      ]
+    ],
+    "confusion_matrix_percent": [
+      [
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3861003861003861,
+        99.22779922779922,
+        0.0,
+        0.3861003861003861
+      ],
+      [
+        0.0,
+        1.7241379310344827,
+        93.10344827586206,
+        5.172413793103448
+      ],
+      [
+        0.35714285714285715,
+        0.7142857142857143,
+        0.35714285714285715,
+        98.57142857142858
+      ]
+    ],
+    "classification_report": {
+      "Apple": {
+        "precision": 0.992619926199262,
+        "recall": 1.0,
+        "f1-score": 0.9962962962962963,
+        "support": 269.0
+      },
+      "Banana": {
+        "precision": 0.9884615384615385,
+        "recall": 0.9922779922779923,
+        "f1-score": 0.9903660886319846,
+        "support": 259.0
+      },
+      "Mixed": {
+        "precision": 0.9818181818181818,
+        "recall": 0.9310344827586207,
+        "f1-score": 0.9557522123893806,
+        "support": 58.0
+      },
+      "Orange": {
+        "precision": 0.9857142857142858,
+        "recall": 0.9857142857142858,
+        "f1-score": 0.9857142857142858,
+        "support": 280.0
+      },
+      "accuracy": 0.9884526558891455,
+      "macro avg": {
+        "precision": 0.9871534830483171,
+        "recall": 0.9772566901877247,
+        "f1-score": 0.9820322207579868,
+        "support": 866.0
+      },
+      "weighted avg": {
+        "precision": 0.9884200382847512,
+        "recall": 0.9884526558891455,
+        "f1-score": 0.9883858533232931,
+        "support": 866.0
+      }
+    }
+  },
+  "validation_set": {
+    "accuracy": 97.6958525345622,
+    "correct": 212,
+    "total": 217,
+    "per_class_accuracy": {
+      "Apple": {
+        "accuracy": 100.0,
+        "correct": 65,
+        "total": 65
+      },
+      "Banana": {
+        "accuracy": 100.0,
+        "correct": 66,
+        "total": 66
+      },
+      "Mixed": {
+        "accuracy": 75.0,
+        "correct": 9,
+        "total": 12
+      },
+      "Orange": {
+        "accuracy": 97.2972972972973,
+        "correct": 72,
+        "total": 74
+      }
+    },
+    "confusion_matrix": [
+      [
+        65,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        66,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        9,
+        2
+      ],
+      [
+        1,
+        1,
+        0,
+        72
+      ]
+    ],
+    "confusion_matrix_percent": [
+      [
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.333333333333332,
+        75.0,
+        16.666666666666664
+      ],
+      [
+        1.3513513513513513,
+        1.3513513513513513,
+        0.0,
+        97.2972972972973
+      ]
+    ],
+    "classification_report": {
+      "Apple": {
+        "precision": 0.9848484848484849,
+        "recall": 1.0,
+        "f1-score": 0.9923664122137404,
+        "support": 65.0
+      },
+      "Banana": {
+        "precision": 0.9705882352941176,
+        "recall": 1.0,
+        "f1-score": 0.9850746268656716,
+        "support": 66.0
+      },
+      "Mixed": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 12.0
+      },
+      "Orange": {
+        "precision": 0.972972972972973,
+        "recall": 0.972972972972973,
+        "f1-score": 0.972972972972973,
+        "support": 74.0
+      },
+      "accuracy": 0.9769585253456221,
+      "macro avg": {
+        "precision": 0.982102423278894,
+        "recall": 0.9307432432432432,
+        "f1-score": 0.9518892172988105,
+        "support": 217.0
+      },
+      "weighted avg": {
+        "precision": 0.9772994241684944,
+        "recall": 0.9769585253456221,
+        "f1-score": 0.9760574030080265,
+        "support": 217.0
+      }
+    }
+  },
+  "test_set": {
+    "accuracy": 94.91525423728814,
+    "correct": 56,
+    "total": 59,
+    "per_class_accuracy": {
+      "Apple": {
+        "accuracy": 94.73684210526315,
+        "correct": 18,
+        "total": 19
+      },
+      "Banana": {
+        "accuracy": 94.44444444444444,
+        "correct": 17,
+        "total": 18
+      },
+      "Mixed": {
+        "accuracy": 80.0,
+        "correct": 4,
+        "total": 5
+      },
+      "Orange": {
+        "accuracy": 100.0,
+        "correct": 17,
+        "total": 17
+      }
+    },
+    "confusion_matrix": [
+      [
+        18,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        17,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        17
+      ]
+    ],
+    "confusion_matrix_percent": [
+      [
+        94.73684210526315,
+        0.0,
+        5.263157894736842,
+        0.0
+      ],
+      [
+        5.555555555555555,
+        94.44444444444444,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        80.0,
+        20.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        100.0
+      ]
+    ],
+    "classification_report": {
+      "Apple": {
+        "precision": 0.9473684210526315,
+        "recall": 0.9473684210526315,
+        "f1-score": 0.9473684210526315,
+        "support": 19.0
+      },
+      "Banana": {
+        "precision": 1.0,
+        "recall": 0.9444444444444444,
+        "f1-score": 0.9714285714285714,
+        "support": 18.0
+      },
+      "Mixed": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1-score": 0.8,
+        "support": 5.0
+      },
+      "Orange": {
+        "precision": 0.9444444444444444,
+        "recall": 1.0,
+        "f1-score": 0.9714285714285714,
+        "support": 17.0
+      },
+      "accuracy": 0.9491525423728814,
+      "macro avg": {
+        "precision": 0.9229532163742691,
+        "recall": 0.9229532163742691,
+        "f1-score": 0.9225563909774437,
+        "support": 59.0
+      },
+      "weighted avg": {
+        "precision": 0.9500941619585688,
+        "recall": 0.9491525423728814,
+        "f1-score": 0.9491525423728813,
+        "support": 59.0
+      }
+    }
+  },
+  "classes": [
+    "Apple",
+    "Banana",
+    "Mixed",
+    "Orange"
+  ]
+}

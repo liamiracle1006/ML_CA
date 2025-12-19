@@ -1,0 +1,56 @@
+{
+  "model_name": "GoogLeNet_optimized",
+  "checkpoint_epoch": 39,
+  "validation_accuracy": 97.6958525345622,
+  "overall_test_accuracy": 91.52542372881356,
+  "per_class_accuracy": {
+    "Apple": 94.73684210526316,
+    "Banana": 94.44444444444444,
+    "Mixed": 40.0,
+    "Orange": 100.0
+  },
+  "per_class_correct": {
+    "Apple": 18,
+    "Banana": 17,
+    "Mixed": 2,
+    "Orange": 17
+  },
+  "per_class_total": {
+    "Apple": 19,
+    "Banana": 18,
+    "Mixed": 5,
+    "Orange": 17
+  },
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      17,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      17
+    ]
+  ],
+  "class_names": [
+    "Apple",
+    "Banana",
+    "Mixed",
+    "Orange"
+  ]
+}

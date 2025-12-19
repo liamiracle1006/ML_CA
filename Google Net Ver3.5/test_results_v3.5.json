@@ -1,0 +1,127 @@
+{
+  "model": "GoogLeNet v3.5",
+  "checkpoint_file": "best_GoogLeNet_v3.5.pth",
+  "test_accuracy": 94.91525423728814,
+  "total_samples": 59,
+  "correct_predictions": 56,
+  "test_dataset_size": 59,
+  "classes": [
+    "Apple",
+    "Banana",
+    "Mixed",
+    "Orange"
+  ],
+  "per_class_accuracy": {
+    "Apple": {
+      "accuracy": 94.73684210526315,
+      "correct": 18,
+      "total": 19
+    },
+    "Banana": {
+      "accuracy": 94.44444444444444,
+      "correct": 17,
+      "total": 18
+    },
+    "Mixed": {
+      "accuracy": 80.0,
+      "correct": 4,
+      "total": 5
+    },
+    "Orange": {
+      "accuracy": 100.0,
+      "correct": 17,
+      "total": 17
+    }
+  },
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      17,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      17
+    ]
+  ],
+  "confusion_matrix_percent": [
+    [
+      94.73684210526315,
+      0.0,
+      5.263157894736842,
+      0.0
+    ],
+    [
+      5.555555555555555,
+      94.44444444444444,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      80.0,
+      20.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ]
+  ],
+  "classification_report": {
+    "Apple": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.9473684210526315,
+      "support": 19.0
+    },
+    "Banana": {
+      "precision": 1.0,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.9714285714285714,
+      "support": 18.0
+    },
+    "Mixed": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 5.0
+    },
+    "Orange": {
+      "precision": 0.9444444444444444,
+      "recall": 1.0,
+      "f1-score": 0.9714285714285714,
+      "support": 17.0
+    },
+    "accuracy": 0.9491525423728814,
+    "macro avg": {
+      "precision": 0.9229532163742691,
+      "recall": 0.9229532163742691,
+      "f1-score": 0.9225563909774437,
+      "support": 59.0
+    },
+    "weighted avg": {
+      "precision": 0.9500941619585688,
+      "recall": 0.9491525423728814,
+      "f1-score": 0.9491525423728813,
+      "support": 59.0
+    }
+  }
+}

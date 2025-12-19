@@ -1,0 +1,18 @@
+{
+  "version": "3.5",
+  "model_name": "GoogLeNet",
+  "best_val_accuracy": 97.23502304147465,
+  "test_accuracy": 94.91525423728814,
+  "training_time": 960.3410937786102,
+  "parameters": 5992212,
+  "config": {
+    "optimizer": "SGD",
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "dropout": 0.5,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "epochs": 50,
+    "scheduler": "StepLR (step=15, gamma=0.1)"
+  }
+}
