@@ -1,0 +1,6 @@
+{
+  "model_name": "CNN",
+  "best_val_accuracy": 0.8930232524871826,
+  "test_accuracy": 0.8135592937469482,
+  "timestamp": "20251217_011357"
+}
