@@ -1,0 +1,8 @@
+Result Summary:
+{
+  "model_name": "AlexNet",
+  "best_val_accuracy": 93.05555555555556,
+  "test_accuracy": 89.83050847457628,
+  "training_time": 700.1108710765839,
+  "parameters": 46763396
+}
